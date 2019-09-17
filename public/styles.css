@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    
+    background-image: url("bookshelves.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+  }
+  
+  .leftSideBar {
+    background-color: #011933;
+    color: #fff;
+  }
+
+
+  .list {
+    background-color: rgb(85, 84, 84);
+  }
+  
