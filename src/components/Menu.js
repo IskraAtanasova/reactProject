@@ -17,6 +17,13 @@ class Menu extends React.Component {
     return (
   
       <nav className="navbar navbar-expand-lg bgNav">
+         <nav class="navbar">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fa fa-filter  fa-lg"></i>
+                </button>
+            </div>
+        </nav>
         <span className="navbar-brand">Book Catalog</span>
         <button
           className="navbar-toggler"

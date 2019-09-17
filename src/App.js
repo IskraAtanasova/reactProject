@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <Menu />
-      <Thought />
       <FilterLeft />
+    
     </Router>
   );
 }
