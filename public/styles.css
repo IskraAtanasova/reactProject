@@ -9,43 +9,57 @@ body {
     background-size: cover;
   }
   
-/* Shrinking the sidebar from 250px to 80px and center aligining its content*/
-#sidebar.active {
-  min-width: 80px;
-  max-width: 80px;
-  text-align: center;
 
+
+#sidebar.active {
+  min-width: 100px;
+  max-width: 100px;
+  
+  
 }
 
+.grn {
+  border: 0.05em solid #17a2b8;
+}
 
 
 /* Toggling the sidebar header content, hide the big heading [h3] and showing the small heading [strong] and vice versa*/
-#sidebar .sidebar-header strong {
-  display: none;
-}
+
+
 #sidebar.active .sidebar-header h3 {
   display: none;
 }
-#sidebar.active .sidebar-header strong {
-  display: block;
-}
 
-#sidebar ul li a {
-  text-align: left;
-}
-
-#sidebar.active ul li a {
-  padding: 20px 10px;
+.sidebar-header {
   text-align: center;
-  font-size: 0.85em;
+  margin-bottom: 1em;
 }
 
-#sidebar.active ul li a i {
-  margin-right:  0;
-  display: block;
-  font-size: 1.8em;
-  margin-bottom: 5px;
+.filter-comp li a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.05em;
+  text-decoration: none;
+  margin-bottom: 1em;
 }
+
+.filter-comp li a:hover {
+  color: #17a2b8;
+}
+
+.filter-comp i {
+  padding-right: 0.8em;
+  display: inline-block;
+  font-size: 1em;
+  color: #17a2b8;
+  font-weight: none;
+}
+
+.lft {
+  margin-left: 0.5em;
+}
+
+
 
 /* Same dropdown links padding*/
 #sidebar.active ul ul a {

@@ -5,19 +5,32 @@ const FilterLeft = () => {
 
   return (
     <div className="wrapper">
-              <nav id="sidebar">
-                <div className="sidebar-header">
-                    <h3>Filter by:</h3>
-                </div>
-                <ul className="filter-comp">
-                    <li className="active"><a href="#">Title</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Author</a></li>
-                  </ul>
-              </nav>
-              <Thought />
-
-
+      <nav id="sidebar" class="active">
+        <div className="sidebar-header">
+            <h3>Filter by:</h3>
+        </div>
+        <ul className="filter-comp">
+          <li>
+            <a href="#">
+              <i className="fa fa-book"></i>
+              <span className="lft">Title</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i className="fa fa-window-restore"></i>
+              <span>Category</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i className="fa fa-user"></i>
+              <span className="lft">Author</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <Thought />
     </div>
   );
 };

@@ -30,7 +30,7 @@ class SearchForm extends React.Component {
           name="search"
           value={this.state.inputText}
         />
-        <button className="btn btn-outline-light my-2 " type="submit">
+        <button className="btn btn-outline-light my-2 grn" type="submit">
           Search
         </button>
       </form>
